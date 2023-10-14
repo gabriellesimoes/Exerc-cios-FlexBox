@@ -40,8 +40,8 @@ h1 {
 }
 
 .container2 {
-    display: flex;  
-    justify-content: flex-end; 
+    display: flex;
+    justify-content: flex-end;
 }
 
 .container3 {
@@ -53,31 +53,39 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
-.container5 {  
+
+.container5 {
     display: flex;
     justify-content: space-around;
 }
+
 .container6 {
     display: flex;
     justify-content: space-evenly;
 }
+
 .container-exercicioB {
     display: flex;
     flex-direction: column-reverse;
 }
+
 .container-desafio {
     display: flex;
-    
+    flex-direction: row-reverse;
+    justify-content: flex-end;
 }
-.container-desafio .box4 {
-    order: 1; 
+
+/*outro modo de realizar:
+
+ .container-desafio .box4 {
+    order: 1;
 }
 .container-desafio .box3 {
-    order: 2; 
+    order: 2;
 }
 .container-desafio .box2 {
-    order: 3; 
+    order: 3;
 }
 .container-desafio .box1 {
-    order: 4; 
-}
+    order: 4;
+} */
